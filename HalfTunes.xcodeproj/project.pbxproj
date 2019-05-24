@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1879CA0E2297CCF3007E75EB /* TrackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1879CA0D2297CCF3007E75EB /* TrackModel.m */; };
+		1879CA112297CD46007E75EB /* Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 1879CA102297CD46007E75EB /* Download.m */; };
 		18BA57EC2297C5C3003A4AB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA57EB2297C5C3003A4AB9 /* AppDelegate.m */; };
 		18BA57EF2297C5C3003A4AB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA57EE2297C5C3003A4AB9 /* ViewController.m */; };
 		18BA57F22297C5C3003A4AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BA57F02297C5C3003A4AB9 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		18BA57FA2297C5C5003A4AB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA57F92297C5C5003A4AB9 /* main.m */; };
 		18BA58042297C5C5003A4AB9 /* HalfTunesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA58032297C5C5003A4AB9 /* HalfTunesTests.m */; };
 		18BA580F2297C5C5003A4AB9 /* HalfTunesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA580E2297C5C5003A4AB9 /* HalfTunesUITests.m */; };
+		18BA581E2297CB46003A4AB9 /* TrackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA581D2297CB46003A4AB9 /* TrackCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1879CA0C2297CCF3007E75EB /* TrackModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackModel.h; sourceTree = "<group>"; };
+		1879CA0D2297CCF3007E75EB /* TrackModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackModel.m; sourceTree = "<group>"; };
+		1879CA0F2297CD46007E75EB /* Download.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Download.h; sourceTree = "<group>"; };
+		1879CA102297CD46007E75EB /* Download.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Download.m; sourceTree = "<group>"; };
 		18BA57E72297C5C3003A4AB9 /* HalfTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalfTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BA57EA2297C5C3003A4AB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18BA57EB2297C5C3003A4AB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,8 @@
 		18BA580A2297C5C5003A4AB9 /* HalfTunesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalfTunesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BA580E2297C5C5003A4AB9 /* HalfTunesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HalfTunesUITests.m; sourceTree = "<group>"; };
 		18BA58102297C5C5003A4AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BA581C2297CB46003A4AB9 /* TrackCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackCell.h; sourceTree = "<group>"; };
+		18BA581D2297CB46003A4AB9 /* TrackCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,12 @@
 		18BA57E92297C5C3003A4AB9 /* HalfTunes */ = {
 			isa = PBXGroup;
 			children = (
+				1879CA0C2297CCF3007E75EB /* TrackModel.h */,
+				1879CA0D2297CCF3007E75EB /* TrackModel.m */,
+				1879CA0F2297CD46007E75EB /* Download.h */,
+				1879CA102297CD46007E75EB /* Download.m */,
+				18BA581C2297CB46003A4AB9 /* TrackCell.h */,
+				18BA581D2297CB46003A4AB9 /* TrackCell.m */,
 				18BA57EA2297C5C3003A4AB9 /* AppDelegate.h */,
 				18BA57EB2297C5C3003A4AB9 /* AppDelegate.m */,
 				18BA57ED2297C5C3003A4AB9 /* ViewController.h */,
@@ -265,6 +280,9 @@
 				18BA57EF2297C5C3003A4AB9 /* ViewController.m in Sources */,
 				18BA57FA2297C5C5003A4AB9 /* main.m in Sources */,
 				18BA57EC2297C5C3003A4AB9 /* AppDelegate.m in Sources */,
+				1879CA112297CD46007E75EB /* Download.m in Sources */,
+				18BA581E2297CB46003A4AB9 /* TrackCell.m in Sources */,
+				1879CA0E2297CCF3007E75EB /* TrackModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +455,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HalfTunes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HalfTunes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
